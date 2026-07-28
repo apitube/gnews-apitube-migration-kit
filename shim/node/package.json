@@ -1,0 +1,26 @@
+{
+    "name": "gnews-apitube-shim",
+    "version": "1.0.0",
+    "description": "GNews.io v4 compatibility shim for the APITube News API",
+    "type": "module",
+    "main": "gnews-shim.js",
+    "exports": {
+        ".": "./gnews-shim.js"
+    },
+    "scripts": {
+        "example": "node example.js",
+        "test": "node --test"
+    },
+    "engines": {
+        "node": ">=18"
+    },
+    "keywords": [
+        "gnews",
+        "gnews-io",
+        "news-api",
+        "apitube",
+        "migration",
+        "shim"
+    ],
+    "license": "MIT"
+}
