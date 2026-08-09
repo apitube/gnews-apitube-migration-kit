@@ -102,7 +102,7 @@ The clearest win in the migration.
 | Business (€99.99/mo) | 50 | 250 |
 | Enterprise (€249.99/mo) | 100 | 250 |
 
-GNews's documentation states a maximum of 100, but the value you can actually set depends on your subscription. APITube's 250 applies on every plan; above that returns `400 ER0171`.
+GNews's documentation states a maximum of 100, but the value you can actually set depends on your subscription. APITube's 250 applies on Basic and up; Starter is capped at 50 and Free at 10, and above the ceiling the API returns `400 ER0171`.
 
 Fewer requests for the same corpus: pulling 1,000 articles took 100 requests on GNews Free and 10 on Enterprise. On APITube it takes 4.
 

@@ -14,7 +14,7 @@ Four limits, all from GNews's own [documentation](https://docs.gnews.io/) and [p
 
 | Limit | GNews.io | APITube |
 |-------|----------|---------|
-| **Articles per request** | Capped by plan: **10** on Free, 25 on Essential (€49.99/mo), 50 on Business (€99.99/mo), 100 on Enterprise (€249.99/mo) | **250** on every plan |
+| **Articles per request** | Capped by plan: **10** on Free, 25 on Essential (€49.99/mo), 50 on Business (€99.99/mo), 100 on Enterprise (€249.99/mo) | **250** on Basic and up; 50 on Starter ($29), 10 on Free |
 | **Pagination depth** | Hard stop at **1,000 articles** — "for performance reasons, it is not possible to paginate more than 1000 articles" | No depth limit on paid plans |
 | **Freshness on Free** | **12-hour delay**, and the Free plan is explicitly non-commercial — their FAQ says accounts abusing that are terminated | No artificial delay; SSE and WebSocket streaming |
 | **Archive on Free** | 30 days (paid plans reach back to 2020) | Years, on every plan |

@@ -148,7 +148,7 @@ If your code parses the `[N chars]` truncation marker, delete that logic.
 
 ## Where APITube is ahead
 
-- **250 articles per request** on every plan, versus 10 on GNews Free and 100 at €249.99/month
+- **250 articles per request** on Basic and up (50 on Starter, 10 on APITube Free), versus 10 on GNews Free and 100 at €249.99/month
   - Response time varies widely and is not reliably predictable. Measured 27 July 2026, the same request shape returned anywhere from 3 to 28 seconds. A larger page raises the average — on a search query `per_page=10` ran 3–14s against 18–26s at `per_page=250` — but the spread is wide enough that a modest `per_page=100`, and even a query with no `per_page` at all, also landed past 25 seconds. Requests that cross roughly 25 seconds intermittently return `500`. Raise your client timeout above 30 seconds and retry on `500`.
 - **No 1,000-article pagination wall** — page numbers go as deep as you need on paid plans
 - **No 12-hour delay** and no non-commercial restriction on the entry plan
