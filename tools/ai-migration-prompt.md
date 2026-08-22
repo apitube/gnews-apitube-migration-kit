@@ -74,7 +74,7 @@ say so and change nothing. If the query has only AND or only OR, no re-bracketin
    Single-character terms return 400 ER0705 on APITube — flag them.
 
 4. `max` maps to `per_page`. GNews caps it by plan (10 Free / 25 / 50 / 100 Enterprise);
-   APITube allows 250 on Basic and up, 50 on Starter and 10 on Free. If the user was working around the GNews cap, tell them
+   APITube allows 250 on Basic and up, 200 on Basic, 50 on Starter and 10 on Free. If the user was working around the GNews cap, tell them
    they can stop.
 
 5. `page` maps to `page` unchanged — same name, same 1-based semantics. GNews cannot paginate
