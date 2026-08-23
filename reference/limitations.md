@@ -163,7 +163,7 @@ If your code parses the `[N chars]` truncation marker, delete that logic.
 - Readability scoring
 - Boolean query language across every filter field
 - Faceted aggregation in a single request
-- [SSE](https://docs.apitube.io/platform/news-api/integrations/sse-stream) and [WebSocket](https://docs.apitube.io/platform/news-api/integrations/websocket-stream) streaming
+- [SSE](https://docs.apitube.io/platform/news-api/sse-stream) and [WebSocket](https://docs.apitube.io/platform/news-api/websocket-stream) streaming
 - [Webhooks](https://docs.apitube.io/platform/news-api/webhooks) with signed payloads
 - Export to CSV, XLSX, Parquet, JSONL, RSS, XML
 - English machine translation of title and description for 48 source languages

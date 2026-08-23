@@ -140,7 +140,7 @@ GNews returns a headline, a description, article content, an image URL, and a so
 - **English machine translation** of title and description for 48 source languages
 - `body_html` alongside plain `body`
 
-Plus a boolean query language spanning every filter field, faceted aggregation, [SSE](https://docs.apitube.io/platform/news-api/integrations/sse-stream) and [WebSocket](https://docs.apitube.io/platform/news-api/integrations/websocket-stream) streaming, [webhooks](https://docs.apitube.io/platform/news-api/webhooks), and export to CSV, XLSX, Parquet, JSONL, RSS, XML.
+Plus a boolean query language spanning every filter field, faceted aggregation, [SSE](https://docs.apitube.io/platform/news-api/sse-stream) and [WebSocket](https://docs.apitube.io/platform/news-api/websocket-stream) streaming, [webhooks](https://docs.apitube.io/platform/news-api/webhooks), and export to CSV, XLSX, Parquet, JSONL, RSS, XML.
 
 ## Read this before you start
 
@@ -148,7 +148,7 @@ Plus a boolean query language spanning every filter field, faceted aggregation, 
 
 ## Documentation
 
-- [APITube parameters reference](https://docs.apitube.io/platform/news-api/parameters) — all 65+ filters
+- [APITube parameters reference](https://docs.apitube.io/platform/news-api/everything) — all 65+ filters
 - [APITube response structure](https://docs.apitube.io/platform/news-api/response-structure)
 - [APITube endpoints](https://docs.apitube.io/platform/news-api/endpoints)
 

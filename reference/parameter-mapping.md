@@ -246,4 +246,4 @@ Two shape differences: GNews's `errors` is either an array of strings or an obje
 
 GNews had no way to exclude a publisher, no sentiment, no entities, and no source-quality signal at all.
 
-Full list: [APITube parameters reference](https://docs.apitube.io/platform/news-api/parameters).
+Full list: [APITube parameters reference](https://docs.apitube.io/platform/news-api/everything).
